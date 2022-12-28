@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aadeb13-99e0-44f4-812a-936632778eaf" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicHttpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicHttpInitializer.java" afterDir="false" />
+    <list default="true" id="5aadeb13-99e0-44f4-812a-936632778eaf" name="Changes" comment="Implement the BasicHttpHandler class&#10;This class contains the code that reads requests and sends responses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/basicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicHttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shahryarkiani/BasicServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,26 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="BasicServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shahryarkiani.BasicServer" />
+      <module name="basicNettyHttpServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.shahryarkiani.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BasicServer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672263417092</updated>
-      <workItem from="1672263418814" duration="2660000" />
+      <workItem from="1672263418814" duration="4238000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1672264003749</created>
@@ -69,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672264003749</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement server bootstrapping and channel initializer">
+      <created>1672267387128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672267387128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Implement server bootstrapping and channel initializer" />
+    <MESSAGE value="Implement the BasicHttpHandler class&#10;This class contains the code that reads requests and sends responses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the BasicHttpHandler class&#10;This class contains the code that reads requests and sends responses" />
   </component>
 </project>
